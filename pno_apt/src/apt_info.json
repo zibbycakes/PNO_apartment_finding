@@ -4,30 +4,50 @@
         "apt1":
         {
             "id": 1,
-            "name":"testname1",
-            "rent":"testrent1",
-            "location":"testloc1"
+            "name":"Tribeca by Lantower",
+            "lowestRent":"$971/mo",
+            "location":"8401 Memorial Lane, Plano, TX 75024",
+            "mapcolor":"blue",
+            "maplabel": "T",
+            "contactNumber": "(469) 646-7035",
+            "gridImageLoc": "https://tribecaplano.com/assets/images/cache/8401-memorial-ln-plano-tx-High-Res-1911-c9757149bea58987bd5270f518532f3a.jpg",
+            "website":"https://tribecaplano.com/"
         },
         "apt2":
         {
             "id": 2,
-            "name":"testname2",
-            "rent":"testrent2",
-            "location":"testloc2"
+            "name":"The Huntington",
+            "lowestRent":"$1340/mo",
+            "location":"4925 RASOR BOULEVARD, PLANO, TX 75024",
+            "mapcolor":"brown",
+            "maplabel": "H",
+            "contactNumber":"(214) 972-0041",
+            "gridImageLoc":"https://spxeastwebfarm7-spherexxcom.netdna-ssl.com/thumb/thumbnail.aspx?p=/common/uploads/www_huntingtonplano_com/property_photos/38612-pho-The-Huntington-huntington030.jpg",
+            "website":"https://www.huntingtonplano.com/"
         },
         "apt3":
         {
             "id": 3,
-            "name":"testname3",
-            "rent":"testrent3",
-            "location":"testloc3"
+            "name":"Origin at Frisco Bridges",
+            "lowestRent":"$1238/mo",
+            "location":"2949 Parkwood Blvd, Frisco, TX 75034",
+            "mapcolor":"purple",
+            "maplabel": "O",
+            "contactNumber":"(855) 262-7970",
+            "gridImageLoc":"https://originatfriscobridges.com/wp-content/blogs.dir/28/files/sites/28/2014/07/Hero-Interior-1440x960.jpg",
+            "website":"https://originatfriscobridges.com/"
         },
         "apt4":
         {
             "id": 4,
-            "name":"testname4",
-            "rent":"testrent4",
-            "location":"testloc4"
+            "name":"Verus",
+            "lowestRent":"$1299/mo",
+            "location":"3100 Ohio Drive, Frisco, Texas 75035",
+            "mapcolor":"orange",
+            "maplabel":"V",
+            "contactNumber":"(469) 440-2824",
+            "gridImageLoc":"https://lh3.googleusercontent.com/lKkXFniCwMlzWLHKfVplnl6oUNaeKa80HIHOZtTuiFljOxBcAWPEIX4VJtXsodRdtmnd3Ee6n5QPbMH_YHEDcNNY=s1500",
+            "website":"https://www.verusapts.com/"
         }
     },
     "events":
