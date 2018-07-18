@@ -1,0 +1,42 @@
+{
+    "apartments":
+    {
+        "apt1":
+        {
+            "id": 1,
+            "name":"testname1",
+            "rent":"testrent1",
+            "location":"testloc1"
+        },
+        "apt2":
+        {
+            "id": 2,
+            "name":"testname2",
+            "rent":"testrent2",
+            "location":"testloc2"
+        },
+        "apt3":
+        {
+            "id": 3,
+            "name":"testname3",
+            "rent":"testrent3",
+            "location":"testloc3"
+        },
+        "apt4":
+        {
+            "id": 4,
+            "name":"testname4",
+            "rent":"testrent4",
+            "location":"testloc4"
+        }
+    },
+    "events":
+    {
+        "evt1":
+        {
+            "name":"evt1",
+            "date":"evt1date",
+            "location":"evt1loc"
+        }
+    }
+}
