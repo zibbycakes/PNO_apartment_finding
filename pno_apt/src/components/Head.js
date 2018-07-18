@@ -12,7 +12,7 @@ class Head extends Component
                     <NavbarBrand href="/">PNO Apartment Project</NavbarBrand>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="">Apartments</NavLink>
+                            <NavLink href="/apartments">Apartments</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="">Hotels/AirBNBs</NavLink>

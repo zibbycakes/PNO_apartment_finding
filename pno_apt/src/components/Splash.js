@@ -9,7 +9,9 @@ class Splash extends Component
     {
         return(
             <div>
-                <h1>Welcome to the splash page!</h1>
+                <br/>
+                <br/>
+                <h1 style={{textAlign:'center'}}>Welcome to the splash page!</h1>
             </div>
         )
     }
