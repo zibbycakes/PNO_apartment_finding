@@ -8,7 +8,8 @@ class Apartments extends Component
     {
         super();
         this.apartments = apt_info.apartments;
-        this.row_limit = 2;
+        this.row_limit = 3;
+        this.include_apt_nos = [1,3,5,6,7,8,9,10,11];
         this.state = {
             formattedArray : [],
             formattedMapURL: ""
@@ -29,11 +30,15 @@ class Apartments extends Component
         for(let apt in this.apartments)
         {
             var a = this.apartments[apt];
-            //something something location. example:
-            //&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
-            //&markers=color:red%7Clabel:C%7C40.718217,-73.998284
-            tempseg="&markers=color:"+a.mapcolor+"%7Clabel:"+a.maplabel+"%7C"+a.location;
-            tempURL+=tempseg;
+
+            if(this.include_apt_nos.indexOf(a.id) > -1)
+            {
+                //something something location. example:
+                //&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
+                //&markers=color:red%7Clabel:C%7C40.718217,-73.998284
+                tempseg="&markers=color:"+a.mapcolor+"%7Clabel:"+a.maplabel+"%7C"+a.location;
+                tempURL+=tempseg;
+            }
         }
         this.setState({formattedMapURL:tempURL});
     }
@@ -45,25 +50,32 @@ class Apartments extends Component
             purple: "#8c71a3",
             orange: "#d08931",
             blue: "#86acf6",
-            brown: "#917750"
+            brown: "#917750",
+            green: "#8AAF00",
+            gray: "#BBBBBB",
+            yellow: "#E5B22E",
+            black: "#666666"
         }
         var tempColArray =  [];
         console.log(this.apartments);
         for(let a in this.apartments) {
-            tempColArray.push(
-                <Col key ={this.apartments[a].name}>
-                    <Card>
-                        <CardBody style={{height:'20px',background:colorLibrary[this.apartments[a].mapcolor]}}>
+            if(this.include_apt_nos.indexOf(this.apartments[a].id) > -1)
+            {
+                tempColArray.push(
+                    <Col key ={this.apartments[a].name}>
+                        <Card>
+                            <CardBody style={{height:'20px',background:colorLibrary[this.apartments[a].mapcolor]}}>
+                                <br />
+                            </CardBody>
+                            <CardImg top height="337px" width="100%" src={this.apartments[a].gridImageLoc} alt="Card image cap" />
+                            <CardTitle><a href={"/apartment/" + this.apartments[a].id}>{this.apartments[a].name}</a> <Button style={{float:'right'}} outline color='danger' size="sm" target="_blank" href={"https://www.google.com/maps/place/"+this.apartments[a].location}><img width="24" height="24" src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" /></Button></CardTitle>
+                            <CardSubtitle>{this.apartments[a].location}</CardSubtitle>
                             <br />
-                        </CardBody>
-                        <CardImg top height="337px" width="100%" src={this.apartments[a].gridImageLoc} alt="Card image cap" />
-                        <CardTitle><a href={"/apartment/" + this.apartments[a].id}>{this.apartments[a].name}</a> <Button style={{float:'right'}} outline color='danger' size="sm" target="_blank" href={"https://www.google.com/maps/place/"+this.apartments[a].location}><img width="24" height="24" src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" /></Button></CardTitle>
-                        <CardSubtitle>{this.apartments[a].location}</CardSubtitle>
-                        <br />
-                        <CardText>{this.apartments[a].lowestRent}</CardText>
-                    </Card>
-                </Col>
-            );
+                            <CardText>{this.apartments[a].lowestRent}</CardText>
+                        </Card>
+                    </Col>
+                );
+            }
         }
         var tempRowArray = [];
         var countCol = 0;
@@ -92,7 +104,7 @@ class Apartments extends Component
             <div>
                 <h1 style={{textAlign:'center'}}>Apartments</h1>
                 <br />
-                <Container>
+                <Container style={{maxWidth:"1500px"}}>
                     {this.state.formattedArray}
                 </Container>
                 <p align="center">
