@@ -48,6 +48,90 @@
             "contactNumber":"(469) 440-2824",
             "gridImageLoc":"https://lh3.googleusercontent.com/lKkXFniCwMlzWLHKfVplnl6oUNaeKa80HIHOZtTuiFljOxBcAWPEIX4VJtXsodRdtmnd3Ee6n5QPbMH_YHEDcNNY=s1500",
             "website":"https://www.verusapts.com/"
+        },
+        "apt5":
+        {
+            "id": 5,
+            "name":"AMLI at the Ballpark",
+            "lowestRent":"$1039/mo",
+            "location":"7755 John Q Hammons Drive, Frisco, TX 75034",
+            "mapcolor":"gray",
+            "maplabel":"B",
+            "contactNumber":"(844) 756-6033",
+            "gridImageLoc":"https://www.amli.com/AMLIContent/Files/apartments/dallas/ballpark/amenity-exterior/ballpark-amenity-exterior-building-exterior.jpg",
+            "website":"https://www.amli.com/apartments/dallas/north-dallas-suburbs/frisco/ballpark"
+        },
+        "apt6":
+        {
+            "id": 6,
+            "name":"AMLI Frisco Crossing",
+            "lowestRent":"$1130/mo",
+            "location":"7255 Texas Rangers Dr, Frisco, TX 75034",
+            "mapcolor":"white",
+            "maplabel":"F",
+            "contactNumber":"(844) 353-4036",
+            "gridImageLoc":"https://www.amli.com/AMLIContent/Files/apartments/dallas/friscocrossing/amenity-exterior/friscocrossing-amenity-exterior-building-exterior4.jpg",
+            "website":"https://www.amli.com/apartments/dallas/north-dallas-suburbs/frisco/frisco-crossing"
+        },
+        "apt7":
+        {
+            "id": 7,
+            "name":"Legacy Village",
+            "lowestRent":"$1048/mo",
+            "location":"7001 Parkwood Boulevard, Plano, TX 75024",
+            "mapcolor":"green",
+            "maplabel":"L",
+            "contactNumber":"(214) 382-9221",
+            "gridImageLoc":"https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Galleries/Photo_And_Tours/HR_CommunityRiver_LegacyVillageApartmentHomes_2009_BDG1_JB.jpg",
+            "website":"https://www.udr.com/dallas-apartments/plano/legacy-village-apartment-homes/"
+        },
+        "apt8":
+        {
+            "id": 8,
+            "name":"Mission Gate",
+            "lowestRent":"$1020/mo",
+            "location":"8025 Ohio Drive, Plano, TX 75024",
+            "mapcolor":"yellow",
+            "maplabel":"M",
+            "contactNumber":"(866) 485-5716",
+            "gridImageLoc":"https://d2cej47ganbxpf.cloudfront.net/media/filer_public_thumbnails/filer_public/3e/48/3e484639-cf5a-4d35-b7df-c2582e7a2b8d/m_bedroom_1.jpg__1285x1000_q75_crop-smart_subsampling-2.jpg",
+            "website":"https://www.gables.com/communities/texas/plano/mission-gate/"
+        },
+        "apt9":
+        {
+            "id": 9,
+            "name":"Echelon at the Summit",
+            "lowestRent":"$1070/mo",
+            "location":"3033 Ohio Drive, Frisco, TX 75035",
+            "mapcolor":"brown",
+            "maplabel":"E",
+            "contactNumber":"(214) 436-4628",
+            "gridImageLoc":"https://echelonatthesummit.com/assets/images/cache/Carleton-Echelon-171005-13-HR-56aff3c6d766ceb5ea9565b8785399d6.jpg",
+            "website":"https://echelonatthesummit.com/"
+        },
+        "apt10":
+        {
+            "id": 10,
+            "name":"Lincoln at the Towne Square",
+            "lowestRent":"$902/mo",
+            "location":"8205 Towne Main Dr, Plano, TX 75024",
+            "mapcolor":"orange",
+            "maplabel":"S",
+            "contactNumber":"(866) 860-4096",
+            "gridImageLoc":"https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/The%20Lincoln%20at%20Towne%20Square%20Walk-up%20Entry.jpg",
+            "website":"https://www.lincolnattownesquare.com/"
+        },
+        "apt11":
+        {
+            "id": 11,
+            "name":"Colonial Reserve at Frisco Bridges",
+            "lowestRent":"$902/mo",
+            "location":" 3150 Avenue of the Stars Ave, Frisco, TX 75043",
+            "mapcolor":"black",
+            "maplabel":"R",
+            "contactNumber":"(833) 576-5263",
+            "gridImageLoc":"https://maac-cdn.azureedge.net/~/media/images/properties/texas/dallas-ft-worth/colonial-reserve-at-frisco-bridges/slides/12crfriscobridges_exterior7-min.ashx",
+            "website":"https://www.maac.com/texas/dallas/colonial-reserve-at-frisco-bridges"
         }
     },
     "events":
