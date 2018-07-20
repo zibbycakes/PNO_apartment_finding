@@ -1,42 +1,757 @@
 {
-    "apartments":
-    {
-        "apt1":
+  "apartments": {
+    "1": {
+      "id": 1,
+      "name": "Tribeca by Lantower",
+      "lowestRent": "$971/mo",
+      "location": "8401 Memorial Lane, Plano, TX 75024",
+      "mapcolor": "blue",
+      "maplabel": "T",
+      "contactNumber": "(469) 646-7035",
+      "gridImageLoc": "https://tribecaplano.com/assets/images/cache/8401-memorial-ln-plano-tx-High-Res-1911-c9757149bea58987bd5270f518532f3a.jpg",
+      "website": "https://tribecaplano.com/",
+      "appt": 1,
+      "floorplans": [
         {
-            "id": 1,
-            "name":"testname1",
-            "rent":"testrent1",
-            "location":"testloc1"
+          "name": "Hudson",
+          "rent": "$971 - $1,041",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 648,
+          "image": "https://tribecaplano.com/assets/images/cache/hudson_listng-3712b7d49f27e75386d8d0ab86876301.jpg"
         },
-        "apt2":
         {
-            "id": 2,
-            "name":"testname2",
-            "rent":"testrent2",
-            "location":"testloc2"
+          "name": "Greenwich",
+          "rent": "$1,028 - $1,102",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 735,
+          "image": "https://tribecaplano.com/assets/images/cache/greenwich_listing-28c831b1464f81bd436c9cf9a1fb7993.jpg"
         },
-        "apt3":
         {
-            "id": 3,
-            "name":"testname3",
-            "rent":"testrent3",
-            "location":"testloc3"
+          "name": "Broadway",
+          "rent": "$1,230",
+          "bed": 1,
+          "bath": 1.5,
+          "sqft": 923,
+          "image": "https://tribecaplano.com/assets/images/cache/TribecaPlano_8401MemorialLn-Plano-TX_1x1-5_Broadway_3D_4484476_Full-2c6c35feac0be40698774ad4682f3622.Jpg"
         },
-        "apt4":
         {
-            "id": 4,
-            "name":"testname4",
-            "rent":"testrent4",
-            "location":"testloc4"
+          "name": "Canal",
+          "rent": "$1,257 - $1,341",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 1021,
+          "image": "https://tribecaplano.com/assets/images/cache/canal_Listing-3d724d7bdb26bc7c32a4f8d11fc7420f.jpg"
+        },
+        {
+          "name": "Franklin",
+          "rent": "$1,474 - $1,484",
+          "bed": 2,
+          "bath": 1,
+          "sqft": 1092,
+          "image": "https://tribecaplano.com/assets/images/cache/franklin_listing-cd027bf1490c3b7881a698cad17f8986.jpg"
+        },
+        {
+          "name": "Barclay",
+          "rent": "$1,571 - $1,631",
+          "bed": 2,
+          "bath": 2,
+          "sqft": 1110,
+          "image": "https://tribecaplano.com/assets/images/cache/barklay_listing-5f909ac765104142a5e6e43b13103c69.jpg"
+        },
+        {
+          "name": "Grand",
+          "rent": "$1,692 - $1,711",
+          "bed": 2,
+          "bath": 2,
+          "sqft": 1170,
+          "image": "https://tribecaplano.com/assets/images/cache/grand_listing-fc97910f5e687390a13e70a2fdb5307b.jpg"
+        },
+        {
+          "name": "Park Place",
+          "rent": "$1,832",
+          "bed": 2,
+          "bath": 2.5,
+          "sqft": 1608,
+          "image": "https://tribecaplano.com/assets/images/cache/parkplace_listing-7430186734cc6071239d9ef4c2fb0a7c.jpg"
         }
+      ]
     },
-    "events":
-    {
-        "evt1":
+    "2": {
+      "id": 2,
+      "name": "The Huntington",
+      "lowestRent": "$1340/mo",
+      "location": "4925 RASOR BOULEVARD, PLANO, TX 75024",
+      "mapcolor": "brown",
+      "maplabel": "H",
+      "contactNumber": "(214) 972-0041",
+      "gridImageLoc": "https://spxeastwebfarm7-spherexxcom.netdna-ssl.com/thumb/thumbnail.aspx?p=/common/uploads/www_huntingtonplano_com/property_photos/38612-pho-The-Huntington-huntington030.jpg",
+      "website": "https://www.huntingtonplano.com/",
+      "appt": null,
+      "floorplans": [
         {
-            "name":"evt1",
-            "date":"evt1date",
-            "location":"evt1loc"
+          "name": "A1",
+          "rent": "$1,340 - $1,440",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 688,
+          "image": "https://spxeastwebfarm7-spherexxcom.netdna-ssl.com/common/dynamic.asp?p=/common/uploads/www_huntingtonplano_com/floorplans/9671-fp-A1_1x1_688.jpg&w=1&mw=550&h=1&mh=450"
+        },
+        {
+          "name": "A2",
+          "rent": "$1,410",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 718,
+          "image": "https://spxeastwebfarm7-spherexxcom.netdna-ssl.com/common/dynamic.asp?p=/common/uploads/www_huntingtonplano_com/floorplans/9672-fp-A2_1x1718.jpg&w=1&mw=550&h=1&mh=450"
+        },
+        {
+          "name": "A2A",
+          "rent": "$1,425 - $1,525",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 783,
+          "image": "https://spxeastwebfarm7-spherexxcom.netdna-ssl.com/common/dynamic.asp?p=/common/uploads/www_huntingtonplano_com/floorplans/9679-fp-A21_1x1_783.jpg&w=1&mw=550&h=1&mh=450"
         }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "name": "Origin at Frisco Bridges",
+      "lowestRent": "$1238/mo",
+      "location": "2949 Parkwood Blvd, Frisco, TX 75034",
+      "mapcolor": "purple",
+      "maplabel": "O",
+      "contactNumber": "(855) 262-7970",
+      "gridImageLoc": "https://originatfriscobridges.com/wp-content/blogs.dir/28/files/sites/28/2014/07/Hero-Interior-1440x960.jpg",
+      "website": "https://originatfriscobridges.com/",
+      "appt": null,
+      "floorplans": [
+        {
+          "name": "A2",
+          "rent": "$1,274 - $1,540",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 692,
+          "image": "https://cdn.rentcafe.com/dmslivecafe/3/471660/3_471660_2356172.jpg"
+        },
+        {
+          "name": "A3",
+          "rent": "$1,309 - $1,600",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 728,
+          "image": "https://cdn.rentcafe.com/dmslivecafe/3/471660/3_471660_2356173.jpg"
+        },
+        {
+          "name": "A5",
+          "rent": "$1,356 - $1,632",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 732,
+          "image": "https://cdn.rentcafe.com/dmslivecafe/3/471660/3_471660_2356200.jpg"
+        },
+        {
+          "name": "A6",
+          "rent": "$1,465 - $1,776",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 793,
+          "image": "https://cdn.rentcafe.com/dmslivecafe/3/471660/3_471660_2356201.jpg"
+        },
+        {
+          "name": "A8",
+          "rent": "$1,419 - $1,737",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 870,
+          "image": "https://cdn.rentcafe.com/dmslivecafe/3/471660/3_471660_2356217.jpg"
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "name": "Verus",
+      "lowestRent": "$1299/mo",
+      "location": "3100 Ohio Drive, Frisco, Texas 75035",
+      "mapcolor": "orange",
+      "maplabel": "V",
+      "contactNumber": "(469) 440-2824",
+      "gridImageLoc": "https://lh3.googleusercontent.com/lKkXFniCwMlzWLHKfVplnl6oUNaeKa80HIHOZtTuiFljOxBcAWPEIX4VJtXsodRdtmnd3Ee6n5QPbMH_YHEDcNNY=s1500",
+      "website": "https://www.verusapts.com/",
+      "appt": null,
+      "floorplans": [
+        {
+          "name": "Aero",
+          "rent": "$1,299+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 665,
+          "image": "https://lh3.googleusercontent.com/PRltfvx4UO8_poYylOpMOghgKlq_uu_WOFwSRS_4-oUASmeMRJvoF0hPJrOKzniF8pVPxZ0Fxbpwgcrk7d9oFr7ECQ=s375"
+        },
+        {
+          "name": "Allure",
+          "rent": "$1,354+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 764,
+          "image": "https://lh3.googleusercontent.com/V34P7efwT1G-5hT-2JdoMhsxNvxk7faj_lcyxRqqkCUtVh8i_IqXsBgxxAmuOAxME0eMfiDG9TXg5jh2G1bJKhWFVw=s375"
+        },
+        {
+          "name": "Amphora",
+          "rent": "$1,389+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 815,
+          "image": "https://lh3.googleusercontent.com/dcnR3lSx0s2UgvG8bJ0GOoONSnaBete-OF4uT8sLsCHCkt3mzjJqKmDZ92hjzZq7MwlERtxp_ju6HmAo3UnXvoBjwT0=s375"
+        },
+        {
+          "name": "Aurora",
+          "rent": "$1,635+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 880,
+          "image": "https://lh3.googleusercontent.com/vhi0RIK41xKP4CpQWA6ZS2UPhsdpqgPr8OII8tiJIWDblMxlmJJuN7sQ3rB77y3zuv5_PnfOE0cyNGZtXi7-ZNqd9w=s375"
+        }
+      ]
+    },
+    "5": {
+      "id": 5,
+      "name": "AMLI at the Ballpark",
+      "lowestRent": "$1039/mo",
+      "location": "7755 John Q Hammons Drive, Frisco, TX 75034",
+      "mapcolor": "gray",
+      "maplabel": "B",
+      "contactNumber": "(844) 756-6033",
+      "gridImageLoc": "https://www.amli.com/AMLIContent/Files/apartments/dallas/ballpark/amenity-exterior/ballpark-amenity-exterior-building-exterior.jpg",
+      "website": "https://www.amli.com/apartments/dallas/north-dallas-suburbs/frisco/ballpark",
+      "appt": null,
+      "floorplans": [
+        {
+          "name": "A200",
+          "rent": "$1,202+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 697,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/ballpark/floorplans/a200.jpg"
+        },
+        {
+          "name": "A300",
+          "rent": "$1,225+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 703,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/ballpark/floorplans/a300.jpg"
+        },
+        {
+          "name": "A325",
+          "rent": "$1,116+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 730,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/ballpark/floorplans/a325.jpg"
+        },
+        {
+          "name": "A400",
+          "rent": "$1,276+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 829,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/ballpark/floorplans/a400.jpg"
+        },
+        {
+          "name": "A500",
+          "rent": "$1,425+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 912,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/ballpark/floorplans/a500.jpg"
+        },
+        {
+          "name": "E100",
+          "rent": "$998+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 632,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/ballpark/floorplans/e100.jpg"
+        }
+      ]
+    },
+    "6": {
+      "id": 6,
+      "name": "AMLI Frisco Crossing",
+      "lowestRent": "$1130/mo",
+      "location": "7255 Texas Rangers Dr, Frisco, TX 75034",
+      "mapcolor": "white",
+      "maplabel": "F",
+      "contactNumber": "(844) 353-4036",
+      "gridImageLoc": "https://www.amli.com/AMLIContent/Files/apartments/dallas/friscocrossing/amenity-exterior/friscocrossing-amenity-exterior-building-exterior4.jpg",
+      "website": "https://www.amli.com/apartments/dallas/north-dallas-suburbs/frisco/frisco-crossing",
+      "appt": null,
+      "floorplans": [
+        {
+          "name": "A2",
+          "rent": "$1,240+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 653,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/friscocrossing/floorplans/a2.jpg"
+        },
+        {
+          "name": "A3",
+          "rent": "$1,195+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 715,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/friscocrossing/floorplans/a3.jpg"
+        },
+        {
+          "name": "A3a",
+          "rent": "$1,260+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": "730-814",
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/friscocrossing/floorplans/a3a.jpg"
+        },
+        {
+          "name": "A4",
+          "rent": "$1,474+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 851,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/friscocrossing/floorplans/a4.jpg"
+        },
+        {
+          "name": "A5",
+          "rent": "$1,530+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 912,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/friscocrossing/floorplans/a5.jpg"
+        },
+        {
+          "name": "A5a",
+          "rent": "$1,481+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 912,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/friscocrossing/floorplans/a5a.jpg"
+        },
+        {
+          "name": "A5b",
+          "rent": "$1,591+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": "868-942",
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/friscocrossing/floorplans/a5b.jpg"
+        },
+        {
+          "name": "A6",
+          "rent": "$1,750+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 1065,
+          "image": "https://www.amli.com/amlicontent/files/apartments/dallas/friscocrossing/floorplans/a6.jpg"
+        }
+      ]
+    },
+    "7": {
+      "id": 7,
+      "name": "Legacy Village",
+      "lowestRent": "$1048/mo",
+      "location": "7001 Parkwood Boulevard, Plano, TX 75024",
+      "mapcolor": "green",
+      "maplabel": "L",
+      "contactNumber": "(214) 382-9221",
+      "gridImageLoc": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Galleries/Photo_And_Tours/HR_CommunityRiver_LegacyVillageApartmentHomes_2009_BDG1_JB.jpg",
+      "website": "https://www.udr.com/dallas-apartments/plano/legacy-village-apartment-homes/",
+      "appt": null,
+      "floorplans": [
+        {
+          "name": "Lakeside - Valentia",
+          "rent": "$1,075+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 675,
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Valentia_at_Lakeside__ID_44111/LegacyVillageApartmentHomes_ValentiaatLakeside_44111.jpg"
+        },
+        {
+          "name": "Lakeside - Barcellona",
+          "rent": "$1,273+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 999,
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Barcellona_at_Lakeside__ID_44105/LegacyVillageApartmentHomes_BarcellonaatLakeside_44105.jpg"
+        },
+        {
+          "name": "Lakeside - Barletto",
+          "rent": "$1,075 - $1,140",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 623,
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Barletto_at_Lakeside__ID_44097/LegacyVillageApartmentHomes_BarlettoatLakeside_44097.jpg"
+        },
+        {
+          "name": "Lakeside - Calabria",
+          "rent": "$1,535 - $1,575",
+          "bed": 1,
+          "bath": 1.5,
+          "sqft": 1140,
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Calabria_at_Lakeside__ID_44098/LegacyVillageApartmentHomes_CalabriaatLakeside_44098.jpg"
+        },
+        {
+          "name": "Lakeside - Lombardi",
+          "rent": "$1,475 - $1,554",
+          "bed": 1,
+          "bath": 1.5,
+          "sqft": "1078 - 1094",
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Lombardi_at_Lakeside__ID_44101/LegacyVillageApartmentHomes_LombardiatLakeside_44101.jpg"
+        },
+        {
+          "name": "Lakeside - Naples",
+          "rent": "$1,007 - $1,160",
+          "bed": 1,
+          "bath": 1,
+          "sqft": "698 - 759",
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Naples_at_Lakeside__ID_44256/LegacyVillageApartmentHomes_NaplesatLakeside_44256.jpg"
+        },
+        {
+          "name": "Lakeside - Verona",
+          "rent": "$1,368 - $1,415",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 1139,
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Verona_at_Lakeside__ID_44116/LegacyVillageApartmentHomes_VeronaatLakeside_44116.jpg"
+        },
+        {
+          "name": "Lakeside - Vittoria",
+          "rent": "$1,048 - $1,213",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 692,
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Vittoria_at_Lakeside__ID_44117/LegacyVillageApartmentHomes_VittoriaatLakeside_44117.jpg"
+        },
+        {
+          "name": "Legacy - Catalina",
+          "rent": "$887 - 1,176",
+          "bed": 1,
+          "bath": 1,
+          "sqft": "702 - 732",
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Catalina_at_the_Village__ID_44243/LegacyVillageApartmentHomes_CatalinaattheVillage_44243.jpg"
+        },
+        {
+          "name": "Legacy - Ortebello",
+          "rent": "$960 - $1,103",
+          "bed": 1,
+          "bath": 1,
+          "sqft": "623 - 692",
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Ortebello_at_the_Village__ID_44134/LegacyVillageApartmentHomes_OrtebelloattheVillage_44134.jpg"
+        },
+        {
+          "name": "Legacy - Tuscany",
+          "rent": "$1,283+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 1012,
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Tuscany_at_the_Village__ID_44119/LegacyVillageApartmentHomes_TuscanyattheVillage_44119.jpg"
+        },
+        {
+          "name": "Legacy - Venetian",
+          "rent": "$1,402+",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 1160,
+          "image": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Floor_Plans/Bedrooms1__Venetian_at_the_Village__ID_44118/LegacyVillageApartmentHomes_VenetianattheVillage_44118.jpg"
+        }
+      ]
+    },
+    "8": {
+      "id": 8,
+      "name": "Mission Gate",
+      "lowestRent": "$1020/mo",
+      "location": "8025 Ohio Drive, Plano, TX 75024",
+      "mapcolor": "yellow",
+      "maplabel": "M",
+      "contactNumber": "(866) 485-5716",
+      "gridImageLoc": "https://d2cej47ganbxpf.cloudfront.net/media/filer_public_thumbnails/filer_public/3e/48/3e484639-cf5a-4d35-b7df-c2582e7a2b8d/m_bedroom_1.jpg__1285x1000_q75_crop-smart_subsampling-2.jpg",
+      "website": "https://www.gables.com/communities/texas/plano/mission-gate/",
+      "appt": null,
+      "floorplans": [
+        {
+          "name": "The Freeman (A1R)",
+          "rent": "$1,055 - $1,345",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 660,
+          "image": "https://d2cej47ganbxpf.cloudfront.net/media/filer_public/b9/80/b9807176-1185-4633-82d4-1a09a1b03fab/a1r.jpg"
+        },
+        {
+          "name": "The Freeman (A1R2)",
+          "rent": "$1,065 - $1,380",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 660,
+          "image": "https://d2cej47ganbxpf.cloudfront.net/media/filer_public/5c/42/5c4283c1-4284-483d-8557-f4af2170b83a/a1r2.jpg"
+        },
+        {
+          "name": "The Benton (A2PR)",
+          "rent": "$1,145 - $1,600",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 774,
+          "image": "https://d2cej47ganbxpf.cloudfront.net/media/filer_public/83/02/830212ab-4d61-42e3-be7f-98dd75f99d55/a2pr.jpg"
+        },
+        {
+          "name": "The Benton (A2R)",
+          "rent": "$1,070 - $1,535",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 774,
+          "image": "https://d2cej47ganbxpf.cloudfront.net/media/filer_public/d7/0f/d70fb7a9-6b67-4919-b469-7f12cce5cb6b/a2r.jpg"
+        },
+        {
+          "name": "The Benton (A2R2)",
+          "rent": "$1,150 - $1,720",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 774,
+          "image": "https://d2cej47ganbxpf.cloudfront.net/media/filer_public/18/7e/187ee778-aeb1-4fc8-b66d-f3bf05b60602/a2r2.jpg"
+        },
+        {
+          "name": "The Segel (A3R)",
+          "rent": "$1,090 - $1,530",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 774,
+          "image": "https://d2cej47ganbxpf.cloudfront.net/media/filer_public/80/26/8026a5f4-9e8b-458e-8076-7e5af1f5b1b1/segel_774.jpg"
+        },
+        {
+          "name": "The Segel (A3R2)",
+          "rent": "$1,165 - $1,805",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 774,
+          "image": "https://d2cej47ganbxpf.cloudfront.net/media/filer_public/b5/aa/b5aa53ac-5f93-49e6-9705-3c0af40028d7/segel_7741.jpg"
+        },
+        {
+          "name": "The Hollyhock (B1PR)",
+          "rent": "$1,450 - $2,020",
+          "bed": 1,
+          "bath": 1.5,
+          "sqft": 1112,
+          "image": "https://d2cej47ganbxpf.cloudfront.net/media/filer_public/f8/26/f826af2c-da56-4c7d-88ca-949558f9af2b/b1pr.jpg"
+        },
+        {
+          "name": "The Hollyhock (B1R)",
+          "rent": "$1,470 - $1,855",
+          "bed": 1,
+          "bath": 1.5,
+          "sqft": 1112,
+          "image": "https://d2cej47ganbxpf.cloudfront.net/media/filer_public/7c/6d/7c6d886b-d23b-430a-a634-6baebb290646/hollyhock_1112.jpg"
+        }
+      ]
+    },
+    "9": {
+      "id": 9,
+      "name": "Echelon at the Summit",
+      "lowestRent": "$1070/mo",
+      "location": "3033 Ohio Drive, Frisco, TX 75035",
+      "mapcolor": "brown",
+      "maplabel": "E",
+      "contactNumber": "(214) 436-4628",
+      "gridImageLoc": "https://echelonatthesummit.com/assets/images/cache/Carleton-Echelon-171005-13-HR-56aff3c6d766ceb5ea9565b8785399d6.jpg",
+      "website": "https://echelonatthesummit.com/",
+      "appt": null,
+      "floorplans": [
+        {
+          "name": "A3A",
+          "rent": "$1,130",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 677,
+          "image": "https://cdn.sightmap.com/assets/91/0p/910pdkqew2z/81/79/817953f1933fb999aff663293c29542d.jpg"
+        },
+        {
+          "name": "A3P",
+          "rent": "$1,299",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 689,
+          "image": "https://cdn.sightmap.com/assets/91/0p/910pdkqew2z/05/31/05310fa80c93f9612484f4b6736f8c1d.jpg"
+        },
+        {
+          "name": "A4P",
+          "rent": "$1,468",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 786,
+          "image": "https://cdn.sightmap.com/assets/91/0p/910pdkqew2z/75/46/75465780400277245adb1cafa07502b7.jpg"
+        },
+        {
+          "name": "A5P",
+          "rent": "$1,518",
+          "bed": 1,
+          "bath": 1.5,
+          "sqft": 815,
+          "image": "https://cdn.sightmap.com/assets/91/0p/910pdkqew2z/1e/53/1e53a272c1e524d41a15169ec6d6b524.jpg"
+        }
+      ]
+    },
+    "10": {
+      "id": 10,
+      "name": "Lincoln at the Towne Square",
+      "lowestRent": "$902/mo",
+      "location": "8205 Towne Main Dr, Plano, TX 75024",
+      "mapcolor": "orange",
+      "maplabel": "S",
+      "contactNumber": "(866) 860-4096",
+      "gridImageLoc": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/The%20Lincoln%20at%20Towne%20Square%20Walk-up%20Entry.jpg",
+      "website": "https://www.lincolnattownesquare.com/",
+      "appt": null,
+      "floorplans": [
+        {
+          "name": "Cottage Hill",
+          "rent": "$1,092 - $1,404",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 609,
+          "image": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/TX_Plano_LincolnatTownSquare_p0614706_CottageHillA1_2_FloorPlan.jpg?&maxwidth=800&quality=85&"
+        },
+        {
+          "name": "Aubrey",
+          "rent": "$949 - $1,285",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 689,
+          "image": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/Aubrey%201x1%20689sqft.PNG?crop=(0,0,300,397)&cropxunits=300&cropyunits=397&maxwidth=800&quality=85&"
+        },
+        {
+          "name": "Savannah",
+          "rent": "$949 - $1,285",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 712,
+          "image": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/TX_Plano_LincolnatTownSquare_p0614706_Savannah_2_FloorPlan.jpg?&maxwidth=800&quality=85&"
+        },
+        {
+          "name": "Anna",
+          "rent": "$1,098 - $1,617",
+          "bed": 1,
+          "bath": 1,
+          "sqft": "718 - 737",
+          "image": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/TX_Plano_LincolnatTownSquare_p0614706_Anna316D2_2_FloorPlan.jpg?&maxwidth=800&quality=85&"
+        },
+        {
+          "name": "Prosper",
+          "rent": "$1,240 - $1,593",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 816,
+          "image": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/TX_Plano_LincolnatTownSquare_p0614706_Prosper316D2_2_FloorPlan.jpg?&maxwidth=800&quality=85&"
+        },
+        {
+          "name": "Westminster",
+          "rent": "$1,134 - $1,514",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 818,
+          "image": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/TX_Plano_LincolnatTownSquare_p0614706_WestminsterA4_2_FloorPlan.jpg?&maxwidth=800&quality=85&"
+        },
+        {
+          "name": "Van Alstyne",
+          "rent": "$1,071 - $1,465",
+          "bed": 1,
+          "bath": 1,
+          "sqft": "696 - 821",
+          "image": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/TX_Plano_LincolnatTownSquare_p0614706_VanAlstyne316D2_2_FloorPlan.jpg?&maxwidth=800&quality=85&"
+        },
+        {
+          "name": "Saddler",
+          "rent": "$1,151 - $1,480",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 828,
+          "image": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/TX_Plano_LincolnatTownSquare_p0614706_Saddler316D2_2_FloorPlan.jpg?&maxwidth=800&quality=85&"
+        },
+        {
+          "name": "Fairview",
+          "rent": "$1,410 - $1,813",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 856,
+          "image": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/p0614706_Fairview.jpg?&maxwidth=800&quality=85&"
+        },
+        {
+          "name": "Weston",
+          "rent": "$1,254 - $1,774",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 969,
+          "image": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/TX_Plano_LincolnatTownSquare_p0614706_Weston316D2_2_FloorPlan.jpg?&maxwidth=800&quality=85&"
+        }
+      ]
+    },
+    "11": {
+      "id": 11,
+      "name": "Colonial Reserve at Frisco Bridges",
+      "lowestRent": "$902/mo",
+      "location": " 3150 Avenue of the Stars Ave, Frisco, TX 75043",
+      "mapcolor": "black",
+      "maplabel": "R",
+      "contactNumber": "(833) 576-5263",
+      "gridImageLoc": "https://maac-cdn.azureedge.net/~/media/images/properties/texas/dallas-ft-worth/colonial-reserve-at-frisco-bridges/slides/12crfriscobridges_exterior7-min.ashx",
+      "website": "https://www.maac.com/texas/dallas/colonial-reserve-at-frisco-bridges",
+      "appt": null,
+      "floorplans": [
+        {
+          "name": "Fitzhugh",
+          "rent": "?",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 963,
+          "image": "https://maac-cdn.azureedge.net/~/media/images/properties/texas/dallas-ft-worth/colonial-reserve-at-frisco-bridges/floorplans/frisco_bridges_11e-963sq_small.ashx"
+        },
+        {
+          "name": "Greenville",
+          "rent": "$1,063 - $1,593",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 754,
+          "image": "https://maac-cdn.azureedge.net/~/media/images/properties/texas/dallas-ft-worth/colonial-reserve-at-frisco-bridges/floorplans/frisco_bridges_11b-754sq_small.ashx"
+        },
+        {
+          "name": "Knox Henderson",
+          "rent": "$1,198 - $1,588",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 842,
+          "image": "https://maac-cdn.azureedge.net/~/media/images/properties/texas/dallas-ft-worth/colonial-reserve-at-frisco-bridges/floorplans/frisco_bridges_11c-842sq_small.ashx"
+        },
+        {
+          "name": "Turtle Creek",
+          "rent": "$1,178 - $1,463",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 808,
+          "image": "https://maac-cdn.azureedge.net/~/media/images/properties/texas/dallas-ft-worth/colonial-reserve-at-frisco-bridges/floorplans/frisco_bridges_11d-808sq_small.ashx"
+        },
+        {
+          "name": "West End",
+          "rent": "$1,003 - $1,408",
+          "bed": 1,
+          "bath": 1,
+          "sqft": "747 - 790",
+          "image": "https://maac-cdn.azureedge.net/~/media/images/properties/texas/dallas-ft-worth/colonial-reserve-at-frisco-bridges/floorplans/frisco_bridges_11d-808sq_small.ashx"
+        }
+      ]
     }
+  },
+  "events": {
+    "1": {
+      "name": "evt1",
+      "date": "evt1date",
+      "location": "evt1loc"
+    }
+  }
 }
