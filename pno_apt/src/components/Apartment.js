@@ -35,6 +35,12 @@ class Apartment extends Component
         }
         this.setState({floorplanArray: tempArray});
     }
+
+    getEventInfoFromAppt()
+    {
+        var event = apt_info.events[this.info.appt];
+        return <text><i>{event.date}</i> at <i>{event.location}</i>.</text>;
+    }
     
     componentDidMount()
     {
@@ -61,7 +67,7 @@ class Apartment extends Component
                                 <ListGroupItem><strong>Address:</strong> <a target="_blank" href={"https://www.google.com/maps/place/"+this.info.location}>{this.info.location}</a></ListGroupItem>
                                 <ListGroupItem><strong>Phone #:</strong> {this.info.contactNumber}</ListGroupItem>
                                 <ListGroupItem><strong>Website:</strong> <a href={this.info.website}>{this.info.website}</a></ListGroupItem>
-                                <ListGroupItem><strong>Appointment Scheduled?</strong> No</ListGroupItem>
+                                <ListGroupItem><strong>Appointment Scheduled?</strong> {this.info.appt == null ? "No" : this.getEventInfoFromAppt()}</ListGroupItem>
                             </ListGroup>
                         </Col>
                     </Row>
