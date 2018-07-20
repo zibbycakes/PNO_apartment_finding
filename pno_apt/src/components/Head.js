@@ -8,17 +8,17 @@ class Head extends Component
     {
         return(
             <div>
-                <Navbar color="light" light expand="md">
+                <Navbar color="dark" dark expand="md">
                     <NavbarBrand href="/">PNO Apartment Project</NavbarBrand>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
                             <NavLink href="/apartments">Apartments</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="">Hotels/AirBNBs</NavLink>
+                            <NavLink href="/events">Events</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="">Possible Expenses</NavLink>
+                            <NavLink href="/expenses">Possible Expenses</NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar>
