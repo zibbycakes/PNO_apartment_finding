@@ -48,6 +48,7 @@ class Apartment extends Component
     {
         console.log(this.id);
         this.formatFloorplanArray();
+        document.title = this.info.name;
     }
 
     render()
