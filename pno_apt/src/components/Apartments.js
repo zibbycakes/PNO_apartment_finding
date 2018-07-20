@@ -109,6 +109,8 @@ class Apartments extends Component
                 </Container>
                 <p align="center">
                     <img src={this.state.formattedMapURL} /> 
+                    <br />
+                    *Note: The C marker is my job
                 </p>  
             </div>
         );
