@@ -11,11 +11,35 @@ class Apartment extends Component
         console.log(this.id);
         console.log(apt_info.apartments[this.id]);
         this.info = apt_info.apartments[this.id];
+        this.state = {
+            floorplanArray: []
+        }
+    }
+
+    formatFloorplanArray()
+    {
+        var tempArray = [];
+        var tempid = 1;
+        console.log(this.info.floorplans);
+        for(let fp of this.info.floorplans)
+        {
+            console.log(fp);
+            tempArray.push(
+                <tr>
+                    <th scope="row">{tempid++}</th>
+                    <td>{<img src={fp.image}></img>}</td>
+                    <td>{fp.name}</td>
+                    <td>{fp.rent}</td>
+                </tr>
+            );
+        }
+        this.setState({floorplanArray: tempArray});
     }
     
     componentDidMount()
     {
         console.log(this.id);
+        this.formatFloorplanArray();
     }
 
     render()
@@ -50,17 +74,12 @@ class Apartment extends Component
                             <tr>
                                 <th>#</th>
                                 <th>Image</th>
+                                <th>Name</th>
                                 <th>Rent</th>
-                                <th>Availibility</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>testi</td>
-                                <td>testr</td>
-                                <td>testa</td>
-                            </tr>
+                                {this.state.floorplanArray}
                             </tbody>
                         </Table>
                     </Row>

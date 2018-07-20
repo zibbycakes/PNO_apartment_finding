@@ -1,146 +1,275 @@
 {
-    "apartments":
-    {
-        "1":
-        {
-            "id": 1,
-            "name":"Tribeca by Lantower",
-            "lowestRent":"$971/mo",
-            "location":"8401 Memorial Lane, Plano, TX 75024",
-            "mapcolor":"blue",
-            "maplabel": "T",
-            "contactNumber": "(469) 646-7035",
-            "gridImageLoc": "https://tribecaplano.com/assets/images/cache/8401-memorial-ln-plano-tx-High-Res-1911-c9757149bea58987bd5270f518532f3a.jpg",
-            "website":"https://tribecaplano.com/"
-        },
-        "2":
-        {
-            "id": 2,
-            "name":"The Huntington",
-            "lowestRent":"$1340/mo",
-            "location":"4925 RASOR BOULEVARD, PLANO, TX 75024",
-            "mapcolor":"brown",
-            "maplabel": "H",
-            "contactNumber":"(214) 972-0041",
-            "gridImageLoc":"https://spxeastwebfarm7-spherexxcom.netdna-ssl.com/thumb/thumbnail.aspx?p=/common/uploads/www_huntingtonplano_com/property_photos/38612-pho-The-Huntington-huntington030.jpg",
-            "website":"https://www.huntingtonplano.com/"
-        },
-        "3":
-        {
-            "id": 3,
-            "name":"Origin at Frisco Bridges",
-            "lowestRent":"$1238/mo",
-            "location":"2949 Parkwood Blvd, Frisco, TX 75034",
-            "mapcolor":"purple",
-            "maplabel": "O",
-            "contactNumber":"(855) 262-7970",
-            "gridImageLoc":"https://originatfriscobridges.com/wp-content/blogs.dir/28/files/sites/28/2014/07/Hero-Interior-1440x960.jpg",
-            "website":"https://originatfriscobridges.com/"
-        },
-        "4":
-        {
-            "id": 4,
-            "name":"Verus",
-            "lowestRent":"$1299/mo",
-            "location":"3100 Ohio Drive, Frisco, Texas 75035",
-            "mapcolor":"orange",
-            "maplabel":"V",
-            "contactNumber":"(469) 440-2824",
-            "gridImageLoc":"https://lh3.googleusercontent.com/lKkXFniCwMlzWLHKfVplnl6oUNaeKa80HIHOZtTuiFljOxBcAWPEIX4VJtXsodRdtmnd3Ee6n5QPbMH_YHEDcNNY=s1500",
-            "website":"https://www.verusapts.com/"
-        },
-        "5":
-        {
-            "id": 5,
-            "name":"AMLI at the Ballpark",
-            "lowestRent":"$1039/mo",
-            "location":"7755 John Q Hammons Drive, Frisco, TX 75034",
-            "mapcolor":"gray",
-            "maplabel":"B",
-            "contactNumber":"(844) 756-6033",
-            "gridImageLoc":"https://www.amli.com/AMLIContent/Files/apartments/dallas/ballpark/amenity-exterior/ballpark-amenity-exterior-building-exterior.jpg",
-            "website":"https://www.amli.com/apartments/dallas/north-dallas-suburbs/frisco/ballpark"
-        },
-        "6":
-        {
-            "id": 6,
-            "name":"AMLI Frisco Crossing",
-            "lowestRent":"$1130/mo",
-            "location":"7255 Texas Rangers Dr, Frisco, TX 75034",
-            "mapcolor":"white",
-            "maplabel":"F",
-            "contactNumber":"(844) 353-4036",
-            "gridImageLoc":"https://www.amli.com/AMLIContent/Files/apartments/dallas/friscocrossing/amenity-exterior/friscocrossing-amenity-exterior-building-exterior4.jpg",
-            "website":"https://www.amli.com/apartments/dallas/north-dallas-suburbs/frisco/frisco-crossing"
-        },
-        "7":
-        {
-            "id": 7,
-            "name":"Legacy Village",
-            "lowestRent":"$1048/mo",
-            "location":"7001 Parkwood Boulevard, Plano, TX 75024",
-            "mapcolor":"green",
-            "maplabel":"L",
-            "contactNumber":"(214) 382-9221",
-            "gridImageLoc":"https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Galleries/Photo_And_Tours/HR_CommunityRiver_LegacyVillageApartmentHomes_2009_BDG1_JB.jpg",
-            "website":"https://www.udr.com/dallas-apartments/plano/legacy-village-apartment-homes/"
-        },
-        "8":
-        {
-            "id": 8,
-            "name":"Mission Gate",
-            "lowestRent":"$1020/mo",
-            "location":"8025 Ohio Drive, Plano, TX 75024",
-            "mapcolor":"yellow",
-            "maplabel":"M",
-            "contactNumber":"(866) 485-5716",
-            "gridImageLoc":"https://d2cej47ganbxpf.cloudfront.net/media/filer_public_thumbnails/filer_public/3e/48/3e484639-cf5a-4d35-b7df-c2582e7a2b8d/m_bedroom_1.jpg__1285x1000_q75_crop-smart_subsampling-2.jpg",
-            "website":"https://www.gables.com/communities/texas/plano/mission-gate/"
-        },
-        "9":
-        {
-            "id": 9,
-            "name":"Echelon at the Summit",
-            "lowestRent":"$1070/mo",
-            "location":"3033 Ohio Drive, Frisco, TX 75035",
-            "mapcolor":"brown",
-            "maplabel":"E",
-            "contactNumber":"(214) 436-4628",
-            "gridImageLoc":"https://echelonatthesummit.com/assets/images/cache/Carleton-Echelon-171005-13-HR-56aff3c6d766ceb5ea9565b8785399d6.jpg",
-            "website":"https://echelonatthesummit.com/"
-        },
-        "10":
-        {
-            "id": 10,
-            "name":"Lincoln at the Towne Square",
-            "lowestRent":"$902/mo",
-            "location":"8205 Towne Main Dr, Plano, TX 75024",
-            "mapcolor":"orange",
-            "maplabel":"S",
-            "contactNumber":"(866) 860-4096",
-            "gridImageLoc":"https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/The%20Lincoln%20at%20Towne%20Square%20Walk-up%20Entry.jpg",
-            "website":"https://www.lincolnattownesquare.com/"
-        },
-        "11":
-        {
-            "id": 11,
-            "name":"Colonial Reserve at Frisco Bridges",
-            "lowestRent":"$902/mo",
-            "location":" 3150 Avenue of the Stars Ave, Frisco, TX 75043",
-            "mapcolor":"black",
-            "maplabel":"R",
-            "contactNumber":"(833) 576-5263",
-            "gridImageLoc":"https://maac-cdn.azureedge.net/~/media/images/properties/texas/dallas-ft-worth/colonial-reserve-at-frisco-bridges/slides/12crfriscobridges_exterior7-min.ashx",
-            "website":"https://www.maac.com/texas/dallas/colonial-reserve-at-frisco-bridges"
-        }
+    "apartments": {
+      "1": {
+        "id": 1,
+        "name": "Tribeca by Lantower",
+        "lowestRent": "$971/mo",
+        "location": "8401 Memorial Lane, Plano, TX 75024",
+        "mapcolor": "blue",
+        "maplabel": "T",
+        "contactNumber": "(469) 646-7035",
+        "gridImageLoc": "https://tribecaplano.com/assets/images/cache/8401-memorial-ln-plano-tx-High-Res-1911-c9757149bea58987bd5270f518532f3a.jpg",
+        "website": "https://tribecaplano.com/",
+        "appt": 1,
+        "floorplans": [
+          {
+            "name": "testname1",
+            "rent": "testrent1",
+            "image": "http://via.placeholder.com/250/ffffff/000000"
+          },
+          {
+            "name": "testname2",
+            "rent": "testrent2",
+            "image": "http://via.placeholder.com/250/000000"
+          }
+        ]
+      },
+      "2": {
+        "id": 2,
+        "name": "The Huntington",
+        "lowestRent": "$1340/mo",
+        "location": "4925 RASOR BOULEVARD, PLANO, TX 75024",
+        "mapcolor": "brown",
+        "maplabel": "H",
+        "contactNumber": "(214) 972-0041",
+        "gridImageLoc": "https://spxeastwebfarm7-spherexxcom.netdna-ssl.com/thumb/thumbnail.aspx?p=/common/uploads/www_huntingtonplano_com/property_photos/38612-pho-The-Huntington-huntington030.jpg",
+        "website": "https://www.huntingtonplano.com/",
+        "appt": null,
+        "floorplans": [
+          {
+            "name": "testname1",
+            "rent": "testrent1",
+            "image": "http://via.placeholder.com/250/ffffff/000000"
+          },
+          {
+            "name": "testname2",
+            "rent": "testrent2",
+            "image": "http://via.placeholder.com/250/000000"
+          }
+        ]
+      },
+      "3": {
+        "id": 3,
+        "name": "Origin at Frisco Bridges",
+        "lowestRent": "$1238/mo",
+        "location": "2949 Parkwood Blvd, Frisco, TX 75034",
+        "mapcolor": "purple",
+        "maplabel": "O",
+        "contactNumber": "(855) 262-7970",
+        "gridImageLoc": "https://originatfriscobridges.com/wp-content/blogs.dir/28/files/sites/28/2014/07/Hero-Interior-1440x960.jpg",
+        "website": "https://originatfriscobridges.com/",
+        "appt": null,
+        "floorplans": [
+          {
+            "name": "testname1",
+            "rent": "testrent1",
+            "image": "http://via.placeholder.com/250/ffffff/000000"
+          },
+          {
+            "name": "testname2",
+            "rent": "testrent2",
+            "image": "http://via.placeholder.com/250/000000"
+          }
+        ]
+      },
+      "4": {
+        "id": 4,
+        "name": "Verus",
+        "lowestRent": "$1299/mo",
+        "location": "3100 Ohio Drive, Frisco, Texas 75035",
+        "mapcolor": "orange",
+        "maplabel": "V",
+        "contactNumber": "(469) 440-2824",
+        "gridImageLoc": "https://lh3.googleusercontent.com/lKkXFniCwMlzWLHKfVplnl6oUNaeKa80HIHOZtTuiFljOxBcAWPEIX4VJtXsodRdtmnd3Ee6n5QPbMH_YHEDcNNY=s1500",
+        "website": "https://www.verusapts.com/",
+        "appt": null,
+        "floorplans": [
+          {
+            "name": "testname1",
+            "rent": "testrent1",
+            "image": "http://via.placeholder.com/250/ffffff/000000"
+          },
+          {
+            "name": "testname2",
+            "rent": "testrent2",
+            "image": "http://via.placeholder.com/250/000000"
+          }
+        ]
+      },
+      "5": {
+        "id": 5,
+        "name": "AMLI at the Ballpark",
+        "lowestRent": "$1039/mo",
+        "location": "7755 John Q Hammons Drive, Frisco, TX 75034",
+        "mapcolor": "gray",
+        "maplabel": "B",
+        "contactNumber": "(844) 756-6033",
+        "gridImageLoc": "https://www.amli.com/AMLIContent/Files/apartments/dallas/ballpark/amenity-exterior/ballpark-amenity-exterior-building-exterior.jpg",
+        "website": "https://www.amli.com/apartments/dallas/north-dallas-suburbs/frisco/ballpark",
+        "appt": null,
+        "floorplans": [
+          {
+            "name": "testname1",
+            "rent": "testrent1",
+            "image": "http://via.placeholder.com/250/ffffff/000000"
+          },
+          {
+            "name": "testname2",
+            "rent": "testrent2",
+            "image": "http://via.placeholder.com/250/000000"
+          }
+        ]
+      },
+      "6": {
+        "id": 6,
+        "name": "AMLI Frisco Crossing",
+        "lowestRent": "$1130/mo",
+        "location": "7255 Texas Rangers Dr, Frisco, TX 75034",
+        "mapcolor": "white",
+        "maplabel": "F",
+        "contactNumber": "(844) 353-4036",
+        "gridImageLoc": "https://www.amli.com/AMLIContent/Files/apartments/dallas/friscocrossing/amenity-exterior/friscocrossing-amenity-exterior-building-exterior4.jpg",
+        "website": "https://www.amli.com/apartments/dallas/north-dallas-suburbs/frisco/frisco-crossing",
+        "appt": null,
+        "floorplans": [
+          {
+            "name": "testname1",
+            "rent": "testrent1",
+            "image": "http://via.placeholder.com/250/ffffff/000000"
+          },
+          {
+            "name": "testname2",
+            "rent": "testrent2",
+            "image": "http://via.placeholder.com/250/000000"
+          }
+        ]
+      },
+      "7": {
+        "id": 7,
+        "name": "Legacy Village",
+        "lowestRent": "$1048/mo",
+        "location": "7001 Parkwood Boulevard, Plano, TX 75024",
+        "mapcolor": "green",
+        "maplabel": "L",
+        "contactNumber": "(214) 382-9221",
+        "gridImageLoc": "https://www.udr.com/uploadedImages/UDR3/Communities/Legacy_Village_Apartment_Homes/Galleries/Photo_And_Tours/HR_CommunityRiver_LegacyVillageApartmentHomes_2009_BDG1_JB.jpg",
+        "website": "https://www.udr.com/dallas-apartments/plano/legacy-village-apartment-homes/",
+        "appt": null,
+        "floorplans": [
+          {
+            "name": "testname1",
+            "rent": "testrent1",
+            "image": "http://via.placeholder.com/250/ffffff/000000"
+          },
+          {
+            "name": "testname2",
+            "rent": "testrent2",
+            "image": "http://via.placeholder.com/250/000000"
+          }
+        ]
+      },
+      "8": {
+        "id": 8,
+        "name": "Mission Gate",
+        "lowestRent": "$1020/mo",
+        "location": "8025 Ohio Drive, Plano, TX 75024",
+        "mapcolor": "yellow",
+        "maplabel": "M",
+        "contactNumber": "(866) 485-5716",
+        "gridImageLoc": "https://d2cej47ganbxpf.cloudfront.net/media/filer_public_thumbnails/filer_public/3e/48/3e484639-cf5a-4d35-b7df-c2582e7a2b8d/m_bedroom_1.jpg__1285x1000_q75_crop-smart_subsampling-2.jpg",
+        "website": "https://www.gables.com/communities/texas/plano/mission-gate/",
+        "appt": null,
+        "floorplans": [
+          {
+            "name": "testname1",
+            "rent": "testrent1",
+            "image": "http://via.placeholder.com/250/ffffff/000000"
+          },
+          {
+            "name": "testname2",
+            "rent": "testrent2",
+            "image": "http://via.placeholder.com/250/000000"
+          }
+        ]
+      },
+      "9": {
+        "id": 9,
+        "name": "Echelon at the Summit",
+        "lowestRent": "$1070/mo",
+        "location": "3033 Ohio Drive, Frisco, TX 75035",
+        "mapcolor": "brown",
+        "maplabel": "E",
+        "contactNumber": "(214) 436-4628",
+        "gridImageLoc": "https://echelonatthesummit.com/assets/images/cache/Carleton-Echelon-171005-13-HR-56aff3c6d766ceb5ea9565b8785399d6.jpg",
+        "website": "https://echelonatthesummit.com/",
+        "appt": null,
+        "floorplans": [
+          {
+            "name": "testname1",
+            "rent": "testrent1",
+            "image": "http://via.placeholder.com/250/ffffff/000000"
+          },
+          {
+            "name": "testname2",
+            "rent": "testrent2",
+            "image": "http://via.placeholder.com/250/000000"
+          }
+        ]
+      },
+      "10": {
+        "id": 10,
+        "name": "Lincoln at the Towne Square",
+        "lowestRent": "$902/mo",
+        "location": "8205 Towne Main Dr, Plano, TX 75024",
+        "mapcolor": "orange",
+        "maplabel": "S",
+        "contactNumber": "(866) 860-4096",
+        "gridImageLoc": "https://cdngeneral.rentcafe.com/dmslivecafe/3/605575/The%20Lincoln%20at%20Towne%20Square%20Walk-up%20Entry.jpg",
+        "website": "https://www.lincolnattownesquare.com/",
+        "appt": null,
+        "floorplans": [
+          {
+            "name": "testname1",
+            "rent": "testrent1",
+            "image": "http://via.placeholder.com/250/ffffff/000000"
+          },
+          {
+            "name": "testname2",
+            "rent": "testrent2",
+            "image": "http://via.placeholder.com/250/000000"
+          }
+        ]
+      },
+      "11": {
+        "id": 11,
+        "name": "Colonial Reserve at Frisco Bridges",
+        "lowestRent": "$902/mo",
+        "location": " 3150 Avenue of the Stars Ave, Frisco, TX 75043",
+        "mapcolor": "black",
+        "maplabel": "R",
+        "contactNumber": "(833) 576-5263",
+        "gridImageLoc": "https://maac-cdn.azureedge.net/~/media/images/properties/texas/dallas-ft-worth/colonial-reserve-at-frisco-bridges/slides/12crfriscobridges_exterior7-min.ashx",
+        "website": "https://www.maac.com/texas/dallas/colonial-reserve-at-frisco-bridges",
+        "appt": null,
+        "floorplans": [
+          {
+            "name": "testname1",
+            "rent": "testrent1",
+            "image": "http://via.placeholder.com/250/ffffff/000000"
+          },
+          {
+            "name": "testname2",
+            "rent": "testrent2",
+            "image": "http://via.placeholder.com/250/000000"
+          }
+        ]
+      }
     },
-    "events":
-    {
-        "evt1":
-        {
-            "name":"evt1",
-            "date":"evt1date",
-            "location":"evt1loc"
-        }
+    "events": {
+      "1": {
+        "name": "evt1",
+        "date": "evt1date",
+        "location": "evt1loc"
+      }
     }
-}
+  }
