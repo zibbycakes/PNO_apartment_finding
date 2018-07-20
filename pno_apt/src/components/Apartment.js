@@ -27,8 +27,10 @@ class Apartment extends Component
             tempArray.push(
                 <tr>
                     <th scope="row">{tempid++}</th>
-                    <td>{<img src={fp.image}></img>}</td>
+                    <td>{<img width="250px" height="250px" src={fp.image}></img>}</td>
                     <td>{fp.name}</td>
+                    <td>{fp.bed} Bed, {fp.bath} Bath</td>
+                    <td>{fp.sqft} sq. ft</td>
                     <td>{fp.rent}</td>
                 </tr>
             );
@@ -52,7 +54,7 @@ class Apartment extends Component
     {
         return (
             <div>
-                <Button style={{marginTop:"50px", marginBottom:"50px"}} color="primary" href="/apartments">← Back to Apartments</Button>
+                <Button style={{marginTop:"50px", marginBottom:"50px", marginLeft:"10px"}} color="primary" href="/apartments">← Back to Apartments</Button>
                 <h1 style={{textAlign:'center'}}>{this.info.name}</h1>
                 <br />
                 <Container style={{maxWidth:"1500px"}}>
@@ -81,6 +83,8 @@ class Apartment extends Component
                                 <th>#</th>
                                 <th>Image</th>
                                 <th>Name</th>
+                                <th>BedxBath</th>
+                                <th>Square Feet</th>
                                 <th>Rent</th>
                             </tr>
                             </thead>

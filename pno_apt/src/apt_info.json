@@ -595,6 +595,14 @@
           "bath": 1.5,
           "sqft": 815,
           "image": "https://cdn.sightmap.com/assets/91/0p/910pdkqew2z/1e/53/1e53a272c1e524d41a15169ec6d6b524.jpg"
+        },
+        {
+          "name": "E1-A",
+          "rent": "$1,040",
+          "bed": 1,
+          "bath": 1,
+          "sqft": 565,
+          "image": "https://cdn.sightmap.com/assets/91/0p/910pdkqew2z/c5/63/c563bbb0706d6af7e6156e47783078d6.jpg"
         }
       ]
     },
@@ -742,7 +750,7 @@
           "bed": 1,
           "bath": 1,
           "sqft": "747 - 790",
-          "image": "https://maac-cdn.azureedge.net/~/media/images/properties/texas/dallas-ft-worth/colonial-reserve-at-frisco-bridges/floorplans/frisco_bridges_11d-808sq_small.ashx"
+          "image": "https://maac-cdn.azureedge.net/~/media/images/properties/texas/dallas-ft-worth/colonial-reserve-at-frisco-bridges/floorplans/frisco_bridges_11a-745sq_small.ashx"
         }
       ]
     }
